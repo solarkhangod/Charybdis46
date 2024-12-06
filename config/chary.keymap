@@ -32,58 +32,9 @@
     combos {
         compatible = "zmk,combos";
 
-        lup {
-            bindings = <&kp UP>;
-            key-positions = <15 16>;
-            layers = <0 1>;
-            timeout-ms = <50>;
-        };
-
-        ldown {
-            bindings = <&kp DOWN>;
-            key-positions = <39 40>;
-            timeout-ms = <50>;
-        };
-
-        lleft {
-            bindings = <&kp LEFT>;
-            key-positions = <26 27>;
-            layers = <0 1>;
-            timeout-ms = <50>;
-        };
-
-        lright {
-            bindings = <&kp RIGHT>;
-            key-positions = <27 28>;
-            layers = <0 1>;
-            timeout-ms = <50>;
-        };
-
-        rup {
-            bindings = <&kp UP>;
-            key-positions = <19 20>;
-            layers = <0 1>;
-            timeout-ms = <50>;
-        };
-
-        rdown {
-            bindings = <&kp DOWN>;
-            key-positions = <43 44>;
-            timeout-ms = <50>;
-        };
-
-        rleft {
-            bindings = <&kp LEFT>;
-            key-positions = <31 32>;
-            layers = <0 1>;
-            timeout-ms = <50>;
-        };
-
-        rright {
-            bindings = <&kp RIGHT>;
-            key-positions = <32 33>;
-            layers = <0 1>;
-            timeout-ms = <50>;
+        lang {
+            bindings = <&kp LANG1>;
+            key-positions = <36 48>;
         };
     };
 
